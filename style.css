@@ -143,6 +143,12 @@ body {
   margin: 0px;
 }
 
+.banner-img {
+  background: url("img/banner-placeholder.png") no-repeat;
+  background-size: 100% 100%;
+  padding: 10rem;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #3498db;
@@ -198,7 +204,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   border: 1px solid black;
-  height: 98%;
+  height: 97.5vh;
 }
 
 .main-body {
