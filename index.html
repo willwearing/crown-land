@@ -9,45 +9,63 @@
   </head>
 
   <body>
-    <header>
-      <div class="banner-img">
-        <h1 id="banner-title">Crown Land App</h1>
-      </div>
+    <header class="header">
+      <ul class="navigation">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Contact</li></a>
+      </ul>
     </header>
 
     <section class="text">
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Get Started - Click here to Choose your Province</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">How to</a>
-          <a href="#">Alberta</a>
-          <a href="#">British Columbia</a>
-          <a href="#">Manitoba</a>
-          <a href="#">New Brunswick</a>
-          <a href="#">Newfoundland and Labrador</a>
-          <a href="#">Northwest Territories</a>
-          <a href="#">Nova Scotia</a>
-          <a href="#">Nunavut</a>
+      <div class="main-body">
+        <ul>
+          <li>
+            <p>CROWN LAND WEB APP</p>
+          </li>
+          <li>
+            <p>
+              Search for crown land near you. This web app shows Google earth
+              with an overlay of crown land locations
+            </p>
+          </li>
+          <li>
+            <p>
+              You can search plus save one area for free - Subscribe to unlock
+              more searches.
+            </p>
+          </li>
+        </ul>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">
+            Get Started - Click here to Choose your Province
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">How to</a>
+            <a href="#">Alberta</a>
+            <a href="#">British Columbia</a>
+            <a href="#">Manitoba</a>
+            <a href="#">New Brunswick</a>
+            <a href="#">Newfoundland and Labrador</a>
+            <a href="#">Northwest Territories</a>
+            <a href="#">Nova Scotia</a>
+            <a href="#">Nunavut</a>
+          </div>
         </div>
       </div>
-      <div class="main-body">
-      <ul>
-        <li>
-          <p>CROWN LAND WEB APP</p>
-        </li>
-        <li>
-          <p>Search for crown land near you. This web app shows Google earth with an overlay of crown land locations</p>
-        </li>
-        <li>
-          <p>You can search plus save one area for free - Subscribe to unlock more searches.</p>
-        </li>
-      </ul>
-    </div>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d328548.1551981851!2d-119.46497358423748!3d49.95918307860689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1599314849997!5m2!1sen!2sca"
+        width="800"
+        height="600"
+        frameborder="0"
+        style="border: 0"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe>
     </section>
-    <section></section>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
