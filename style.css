@@ -143,10 +143,17 @@ body {
   margin: 0px;
 }
 
-.banner-img {
-  background: url("img/banner-placeholder.png") no-repeat;
-  background-size: 100% 100%;
-  padding: 10rem;
+header {
+  border: 1px solid black;
+}
+
+.navigation {
+  display: flex;
+  justify-content: end;
+}
+
+.navigation a {
+  padding: 0 0.5%;
 }
 
 /* Dropdown Button */
