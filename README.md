@@ -10,3 +10,5 @@ Map API and overlay needs to be researched
 https://www.openstreetmap.org could be used 
 
 Crown land overlays seem to already exist. See any mapping software. The benefit for this product would appear to be in showing worksites and publicly avail land useage areas
+
+If I want to use React - I can use React-Google-Maps: https://tomchentw.github.io/react-google-maps/#introduction
